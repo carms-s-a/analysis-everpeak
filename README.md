@@ -1,1 +1,29 @@
 # analysis-everpeak
+# EverPeak Retail Analysis – Sprint 6
+
+Este repositorio contiene el análisis realizado durante el Sprint 6 del caso EverPeak–SilverBasket durante el curso de Análisis de datos de Triple Ten.
+
+El dataset `everpeak_retail` incluye 2,000 órdenes de clientes con valores faltantes, sentinels, outliers y problemas de calidad diseñados para simular datos reales del retail. :contentReference[oaicite:2]{index=2}
+
+## 📂 Contenido del repositorio
+
+- `notebooks/everpeak_analysis.ipynb`
+  → Notebook principal con limpieza, EDA, distribuciones, outliers y conclusiones.
+
+## ▶ Cómo abrir el notebook?
+
+1. Abre el archivo `.ipynb` en GitHub
+2. Haz clic en **Open in Colab**
+
+## Cómo reproducir el análisis
+
+1. Abre `notebooks/everpeak_analysis.ipynb`
+2. Ejecuta las celdas en orden
+3. El notebook carga automáticamente el dataset desde `/data/`!
+
+## 🧠 Objetivo del análisis
+
+- Identificar problemas de calidad de datos
+- Construir un pipeline de limpieza reproducible
+- Analizar comportamientos, distribuciones y outliers
+- Generar insights para el equipo de Estrategia e Integración de EverPeak
